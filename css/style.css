@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+#header {
+    background: black;
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 15px;
+    color: #FFFFFF;
+.
+}
+
+.bth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 5px;
+    background: #3A68B8;
+    width: 112px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+
+}
+
+#hero {
+    background: black;;
+}
+
+.desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #3A68B8;
+
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.desc2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imds {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-general {
+    display: flex;
+    align-items: center;
+}
+
+#apply {
+    background: black;
+}
+
+.general h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.general p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 20px
+}
+
+.apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    width: 312px;
+    height: 378px;
+    left: 336px;
+    top: 2219px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 115.68%);
+    opacity: 0.5;
+    backdrop-filter: blur(200px);
+    border-radius: 10px;
+
+
+}
+
+#naxly {
+    background: black;
+    padding-top: 100px;
+}
+
+.block-general h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.block-general p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+
+}
+
+.block-general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.block {
+    margin: 20px 20px;
+}
+
+.img {
+    margin-bottom: 20px;
+}
+
+.naxly {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/*SECTION*/
+#vides {
+    background: black;
+
+}
+
+.vides {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.tekss h1 {
+    font-weight: 545;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.tekss p {
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+/*FOOTER*/
+#footer {
+    background: rgba(0, 0, 0, 0.88);
+    padding-top: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-robot h1 {
+    font-weight: 600;
+    font-size: 15.9627px;
+    line-height: 22px;
+    color: #3A68B8;
+}
+
+.footer-robot p {
+    padding: 20px 0;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-nav a {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    color: #FFFFFF
+
+}
+
+.footer-text {
+
+}
+
+.footer-text h1 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 10px;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.footer-text p {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+.footer-about h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 46px 0;
+    color: #FFFFFF;
+}
+
+.footer-about p {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.footer-about a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.footer-logo a {
+    color: #FFFFFF;
+}
+.footer-logo{
+    padding-top: 20px;
+}
